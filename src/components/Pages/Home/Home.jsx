@@ -1,12 +1,28 @@
-import React from 'react'
-
+import React from "react";
+import "../../Styles/HomeStyle/HomeStyle.css";
 
 export const Home = () => {
   return (
     <>
-    <div>Home</div>
-    
-    
+      <div className="containerDivHome">
+        <div className="firtsDiv">
+          <img src="../../../assets/images/PhotoMe.jpeg" alt="Foto de perfil" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            odit ducimus sed, saepe architecto a modi tenetur quaerat iusto
+            nemo. Doloremque totam distinctio delectus? Tenetur magni voluptas
+            ea error fugiat? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eos mollitia deserunt consequatur est accusantium vero cumque
+            impedit adipisci aspernatur? Ex velit qui ratione hic, incidunt
+            itaque quo assumenda at tenetur?
+          </p>
+        </div>
+
+        <div className="secondDiv">
+          <h2>Mi familia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolorum quam qui, magnam eveniet ipsam saepe suscipit doloremque odit excepturi rerum consequatur nisi eaque inventore nihil cumque perspiciatis autem. Maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe, illo culpa dolor sequi tenetur at tempore asperiores nam exercitationem natus maxime eaque ad dolores voluptatibus ipsum eos quisquam? Tempore!</p>
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};

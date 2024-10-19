@@ -1,9 +1,12 @@
 import React from 'react';
-import './Navbar.css'
+import '../../Styles/HeaderStyle/Navbar.css'
 
 export const Header = () => {
   return (
+
+    <>
     <header>
+      <h1>Henry Hernandez Martinez</h1>
       <nav className="navbar">
         <ul className="navbar-list">
           <li className="navbar-item">
@@ -21,6 +24,8 @@ export const Header = () => {
         </ul>
       </nav>
     </header>
+    
+    </>
   )
 }
 
