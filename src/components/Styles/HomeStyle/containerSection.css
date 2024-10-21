@@ -1,0 +1,82 @@
+:root {
+    /* --MainColor: #277e1b; */
+  
+    /* Colors */
+  --HoverColor: #277e1b;
+  --ShadyColor: #53a843;
+  --LightShadyColor: #69bd57;
+  --LightGreenColor: #7fd26b;
+  --White: #cccecc;
+  --Black: #000000;
+  
+  
+  }
+
+.containerDivHome {
+    text-align: center;
+
+}
+
+.firtsDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.firtsDiv p {
+    width: 50%;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondDiv p {
+    width: 80%;
+}
+
+.treeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerSection img {
+    width: 45%;
+    height: 100px;
+    border: solid 2px red;
+}
+
+.containerStudy {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 55%;
+   margin: 1rem;
+   border: solid 2px red;
+}
+
+.containerStudy article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: var(--LightGreenColor);
+    border: solid 2px red;
+    margin-bottom: .5rem;
+}
+
+
+
