@@ -27,14 +27,14 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--LightShadyColor);
+  background-color: var(--LightGreenColor);
   height: 5rem;
-  box-shadow: 12px 17px 51px rgba(38, 105, 21, 0.452);
+  box-shadow: 0px 10px 19px rgba(38, 105, 21, 0.452);
 }
 
 
 .navbar {
-  background-color: var(--LightShadyColor);
+  background-color: var(--LightGreenColor);
   padding: 10px 20px;
 }
 

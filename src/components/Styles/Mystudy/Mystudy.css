@@ -33,6 +33,8 @@
   /* border: solid 2px red; */
 }
 
+
+
 .containerSection {
   /* border: solid 2px red; */
   padding: 1rem;
@@ -80,3 +82,4 @@
   transform: scale(1.09);
   transform: rotateZ(360deg);
 }
+

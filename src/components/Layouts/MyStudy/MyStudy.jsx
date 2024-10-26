@@ -43,7 +43,7 @@ export const MyStudy = () => {
           </div>
         </section>
 
-        <ContentImage src={ing} />
+        <ContentImage src={ing} className="asist"/>
       </div>
     </div>
   );
