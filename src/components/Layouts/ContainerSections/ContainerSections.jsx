@@ -1,5 +1,7 @@
 import React from 'react'
 import "../../Styles/HomeStyle/containerSection.css";
+import { ContentImage } from '../../UI/ContentImages/ContentImage';
+import fotoPerfil from '../../../assets/images/PhotoMe.png'
 
 export const ContainerSection = ({children}) => {
   return (
@@ -8,9 +10,9 @@ export const ContainerSection = ({children}) => {
     </section> */
 
     <>
-    <div className="containerDivHome"> {children}
+    <div className="containerDivHome">
         <div className="firtsDiv">
-          <img src="../../../assets/images/PhotoMe.jpeg" alt="Foto de perfil" />
+          <ContentImage src={fotoPerfil}/>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             odit ducimus sed, saepe architecto a modi tenetur quaerat iusto
@@ -36,40 +38,7 @@ export const ContainerSection = ({children}) => {
         </div>
       </div>
 
-      <div className="treeDiv">
-        <h2>Mis Estudios</h2>
-        <div className="containerSection">
-          <section className="containerStudy">
-            <article>
-              <h3>Tecnico en Sistemas</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit praesentium dolorum magni doloremque voluptatem
-                dolorem dicta soluta similique illum!
-              </p>
-            </article>
 
-            <article>
-              <h3>Reparacion de Celulares</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident magnam quas, placeat eveniet recusandae sunt dolorem
-              </p>
-            </article>
-
-            <article>
-              <h3>Curso Desarrollo Web</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Cupiditate vero quis rerum minima aspernatur! Nostrum placeat
-                tempora veniam?
-              </p>
-            </article>
-          </section>
-          
-          <img src="#" alt="foto" />
-        </div>
-      </div>
     </>
   )
 }

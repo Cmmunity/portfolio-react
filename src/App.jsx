@@ -1,14 +1,10 @@
-
-import { Header } from "./components/Layouts/Header/Header";
-import { ContainerSection } from "./components/Layouts/ContainerSections/ContainerSections";
-
+import { Home } from "./components/Pages/Home/Home";
 
 export const App = () => {
   return (
     <>
-      <Header />
-      < ContainerSection />
-      
+      <Home />
+     
     </>
   );
 };
