@@ -15,17 +15,23 @@
 --FontTitle: 20px;
 }
 
+* {
+  scrollbar-width:none;
+}
+
 header {
+  margin: .5rem;
+  border-radius: 10px;
+  position: fixed;
+  width: 99%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--LightShadyColor);
-  height: 4rem;
+  height: 5rem;
+  box-shadow: 12px 17px 51px rgba(38, 105, 21, 0.452);
 }
 
-header [h1] {
-  font-size: var(--FontTitle);
-}
 
 .navbar {
   background-color: var(--LightShadyColor);
