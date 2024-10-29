@@ -20,22 +20,38 @@
 }
 
 header {
-  margin: .5rem;
-  border-radius: 10px;
-  position: fixed;
-  width: 99%;
+  flex-wrap: wrap;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--LightGreenColor);
-  height: 5rem;
+  height: 6rem;
   box-shadow: 0px 10px 19px rgba(38, 105, 21, 0.452);
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
 .navbar {
   background-color: var(--LightGreenColor);
   padding: 10px 20px;
+  
+}
+
+.navbar-item{
+  transition: all .2s;
+  padding: .5rem;
+  border-radius: 10px;
+}
+
+.navbar-item:hover {
+  transform: scale(1.09);
+    background-color: rgb(97, 192, 78);
+    box-shadow: 0px 6px 10px rgb(31, 99, 22);
 }
 
 .navbar-list {
@@ -60,8 +76,18 @@ header {
   text-decoration: underline;
 } */
 
-/* Estilos responsive */
-@media (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 999px) {
+  header {
+    width: 100vw;
+    display: flex;
+    
+    margin: 0;
+    text-align: center;
+    height: auto;
+   
+    border-radius: 0;
+  }
+
   .navbar-list {
     flex-direction: column;
     align-items: center;
@@ -69,5 +95,10 @@ header {
 
   .navbar-item {
     margin: 10px 0;
+  }
+
+  .navbar {
+    padding: 0;
+    margin-bottom: 1rem;
   }
 }

@@ -2,7 +2,7 @@
   /* --MainColor: #277e1b; */
 
   /* Colors */
-  --HoverColor: #277e1b;
+  --HoverColor: #277d1c;
   --ShadyColor: #53a843;
   --LightShadyColor: #69bd57;
   --LightGreenColor: #7fd26b;
@@ -35,16 +35,14 @@ a {
   text-decoration: inherit;
   transition: 0.3s;
 }
-a:hover {
-  color: var(--HoverColor);
-}
+
 
 body {
   margin: 0;
   width: 100%;
   height: auto;
   background-color: var(--White);
-  border: solid 2px green;
+  
   
 }
 

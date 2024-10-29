@@ -6,7 +6,7 @@ export const Header = () => {
 
     <>
     <header>
-      <h1>Henry Hernandez Martinez</h1>
+      <h1 className='name'>Henry Hernandez Martinez</h1>
       <nav className="navbar">
         <ul className="navbar-list">
           <li className="navbar-item">
